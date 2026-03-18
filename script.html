@@ -1,0 +1,8 @@
+function submitForm(event) {
+    event.preventDefault();
+
+    let name = document.getElementById("name").value;
+
+    document.getElementById("response").innerHTML =
+        "Thank you " + name + "! Your enquiry has been submitted.";
+}
